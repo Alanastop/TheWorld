@@ -1,0 +1,8 @@
+﻿{
+  "MailSettings": {
+    "ToAddress": "alanastop@outlook.com"
+  },
+  "ConnectionStrings": {
+    "WorldContextConnection": "Data Source=10.17.70.20;Database=TheWorldDb;Integrated Security=SSPI;"
+  }
+}//"Data Source=10.17.70.20;Initial Catalog=Test;Integrated Security=SSPI";

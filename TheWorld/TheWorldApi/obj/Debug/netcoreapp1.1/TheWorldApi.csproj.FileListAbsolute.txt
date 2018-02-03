@@ -1,0 +1,26 @@
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.deps.json
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.runtimeconfig.json
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.runtimeconfig.dev.json
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.dll
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.pdb
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorld.dll
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorld.pdb
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.csprojResolveAssemblyReference.cache
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.csproj.CoreCompileInputs.cache
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.AssemblyInfoInputs.cache
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.AssemblyInfo.cs
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.dll
+C:\Users\anastopoulos_a\Documents\Visual Studio 2017\Projects\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.pdb
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.deps.json
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.runtimeconfig.json
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.runtimeconfig.dev.json
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.dll
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorldApi.pdb
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorld.dll
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\bin\Debug\netcoreapp1.1\TheWorld.pdb
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.csprojResolveAssemblyReference.cache
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.csproj.CoreCompileInputs.cache
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.AssemblyInfoInputs.cache
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.AssemblyInfo.cs
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.dll
+C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld\TheWorldApi\obj\Debug\netcoreapp1.1\TheWorldApi.pdb

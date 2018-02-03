@@ -1,0 +1,372 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'npm@latest',
+1 verbose cli   '-g' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 silly cache add args [ 'npm@latest', null ]
+6 verbose cache add spec npm@latest
+7 silly cache add parsed spec { raw: 'npm@latest',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'npm',
+7 silly cache add   rawSpec: 'latest',
+7 silly cache add   spec: 'latest',
+7 silly cache add   type: 'tag' }
+8 verbose addNamed npm@latest
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange null
+11 info addNameTag [ 'npm', 'latest' ]
+12 silly mapToRegistry name npm
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.npmjs.org/
+15 silly mapToRegistry uri http://registry.npmjs.org/npm
+16 verbose addNameTag registry:http://registry.npmjs.org/npm not in flight; fetching
+17 verbose request uri http://registry.npmjs.org/npm
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 11:11:00
+20 verbose request id 2827d0b1a0d7dbda
+21 http request GET http://registry.npmjs.org/npm
+22 http 407 http://registry.npmjs.org/npm
+23 verbose bad json <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+23 verbose bad json <HTML><HEAD><TITLE>Error Message</TITLE>
+23 verbose bad json <META http-equiv=Content-Type content="text/html; charset=UTF-8">
+23 verbose bad json <STYLE id=L_default_1>A {
+23 verbose bad json 	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #005a80; FONT-FAMILY: tahoma
+23 verbose bad json }
+23 verbose bad json A:hover {
+23 verbose bad json 	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #0d3372; FONT-FAMILY: tahoma
+23 verbose bad json }
+23 verbose bad json TD {
+23 verbose bad json 	FONT-SIZE: 8pt; FONT-FAMILY: tahoma
+23 verbose bad json }
+23 verbose bad json TD.titleBorder {
+23 verbose bad json 	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 0px solid; COLOR: #955319; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+23 verbose bad json }
+23 verbose bad json TD.titleBorderx {
+23 verbose bad json 	BORDER-RIGHT: #955319 0px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 1px solid; COLOR: #978c79; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+23 verbose bad json }
+23 verbose bad json .TitleDescription {
+23 verbose bad json 	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: tahoma
+23 verbose bad json }
+23 verbose bad json SPAN.explain {
+23 verbose bad json 	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+23 verbose bad json }
+23 verbose bad json SPAN.TryThings {
+23 verbose bad json 	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+23 verbose bad json }
+23 verbose bad json .TryList {
+23 verbose bad json 	MARGIN-TOP: 5px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma
+23 verbose bad json }
+23 verbose bad json .X {
+23 verbose bad json 	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12pt; BORDER-LEFT: #955319 1px solid; COLOR: #7b3807; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #d1c2b4
+23 verbose bad json }
+23 verbose bad json .adminList {
+23 verbose bad json 	MARGIN-TOP: 2px
+23 verbose bad json }
+23 verbose bad json </STYLE>
+23 verbose bad json <META content="MSHTML 6.00.2800.1170" name=GENERATOR></HEAD>
+23 verbose bad json <BODY bgColor=#f3f3ed>
+23 verbose bad json <TABLE cellSpacing=0 cellPadding=0 width="100%">
+23 verbose bad json   <TBODY>
+23 verbose bad json   <TR>
+23 verbose bad json     <TD class=titleBorderx width=30>
+23 verbose bad json       <TABLE height=25 cellSpacing=2 cellPadding=0 width=25 bgColor=black>
+23 verbose bad json         <TBODY>
+23 verbose bad json         <TR>
+23 verbose bad json           <TD id=L_default_x class=x valign=middle align=center>X</TD>
+23 verbose bad json         </TR>
+23 verbose bad json         </TBODY>
+23 verbose bad json       </TABLE>
+23 verbose bad json     </TD>
+23 verbose bad json     <TD class=titleBorder id=L_default_2>Network Access Message:<SPAN class=TitleDescription> The page cannot be displayed</SPAN> </TD>
+23 verbose bad json   </TR>
+23 verbose bad json   </TBODY>
+23 verbose bad json </TABLE>
+23 verbose bad json
+23 verbose bad json <TABLE id=spacer>
+23 verbose bad json   <TBODY>
+23 verbose bad json   <TR>
+23 verbose bad json     <TD height=10></TD></TR></TBODY></TABLE>
+23 verbose bad json <TABLE width=400>
+23 verbose bad json   <TBODY>
+23 verbose bad json   <TR>
+23 verbose bad json     <TD noWrap width=25></TD>
+23 verbose bad json     <TD width=400><SPAN class=explain><ID id=L_default_3><B>Explanation:</B></ID></SPAN><ID id=L_default_4> There is a problem with the page you are trying to reach and it cannot be displayed. </ID><BR><BR>
+23 verbose bad json     <B><SPAN class=tryThings><ID id=L_default_5><B>Try the following:</B></ID></SPAN></B>
+23 verbose bad json       <UL class=TryList>
+23 verbose bad json         <LI id=L_default_6><B>Refresh page:</B> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.
+23 verbose bad json <LI id=L_default_7><B>Check spelling:</B> Check that you typed the Web page address correctly. The address may have been mistyped.
+23 verbose bad json <LI id=L_default_8><B>Access from a link:</B> If there is a link to the page you are looking for, try accessing the page from that link.
+23 verbose bad json
+23 verbose bad json       </UL>
+23 verbose bad json <ID id=L_default_9>If you are still not able to view the requested page, try contacting your administrator or Helpdesk.</ID> <BR><BR>
+23 verbose bad json     </TD>
+23 verbose bad json   </TR>
+23 verbose bad json   </TBODY>
+23 verbose bad json </TABLE>
+23 verbose bad json
+23 verbose bad json <TABLE id=spacer><TBODY><TR><TD height=15></TD></TR></TBODY></TABLE>
+23 verbose bad json
+23 verbose bad json <TABLE width=400>
+23 verbose bad json   <TBODY>
+23 verbose bad json   <TR>
+23 verbose bad json     <TD noWrap width=25></TD>
+23 verbose bad json     <TD width=400 id=L_default_10><B>Technical Information (for support personnel)</B>
+23 verbose bad json       <UL class=adminList>
+23 verbose bad json         <LI id=L_default_11>Error Code: 407 Proxy Authentication Required. Forefront TMG requires authorization to fulfill the request. Access to the Web Proxy filter is denied. (12209)
+23 verbose bad json <LI id=L_default_12>IP Address: 10.17.5.100
+23 verbose bad json <LI id=L_default_13>Date: 19/1/2018 9:11:00 πμ [GMT]
+23 verbose bad json <LI id=L_default_14>Server: ATHPRXSRV01.axa.gr
+23 verbose bad json <LI id=L_default_15>Source: proxy
+23 verbose bad json
+23 verbose bad json       </UL>
+23 verbose bad json     </TD>
+23 verbose bad json   </TR>
+23 verbose bad json   </TBODY>
+23 verbose bad json </TABLE>
+23 verbose bad json
+23 verbose bad json </BODY>
+23 verbose bad json </HTML>
+24 error registry error parsing json
+25 verbose headers { via: '1.1 ATHPRXSRV01',
+25 verbose headers   'proxy-authenticate': 'Negotiate, Kerberos, NTLM, Basic realm="ATHPRXSRV01.axa.gr"',
+25 verbose headers   connection: 'Keep-Alive',
+25 verbose headers   'proxy-connection': 'Keep-Alive',
+25 verbose headers   pragma: 'no-cache',
+25 verbose headers   'cache-control': 'no-cache',
+25 verbose headers   'content-type': 'text/html',
+25 verbose headers   'content-length': '4124  ' }
+26 silly get cb [ 407,
+26 silly get   { via: '1.1 ATHPRXSRV01',
+26 silly get     'proxy-authenticate': 'Negotiate, Kerberos, NTLM, Basic realm="ATHPRXSRV01.axa.gr"',
+26 silly get     connection: 'Keep-Alive',
+26 silly get     'proxy-connection': 'Keep-Alive',
+26 silly get     pragma: 'no-cache',
+26 silly get     'cache-control': 'no-cache',
+26 silly get     'content-type': 'text/html',
+26 silly get     'content-length': '4124  ' } ]
+27 verbose stack SyntaxError: Unexpected token <
+27 verbose stack <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+27 verbose stack <HTML><HEAD><TITLE>Error Message</TITLE>
+27 verbose stack <META http-equiv=Content-Type content="text/html; charset=UTF-8">
+27 verbose stack <STYLE id=L_default_1>A {
+27 verbose stack 	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #005a80; FONT-FAMILY: tahoma
+27 verbose stack }
+27 verbose stack A:hover {
+27 verbose stack 	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #0d3372; FONT-FAMILY: tahoma
+27 verbose stack }
+27 verbose stack TD {
+27 verbose stack 	FONT-SIZE: 8pt; FONT-FAMILY: tahoma
+27 verbose stack }
+27 verbose stack TD.titleBorder {
+27 verbose stack 	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 0px solid; COLOR: #955319; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+27 verbose stack }
+27 verbose stack TD.titleBorderx {
+27 verbose stack 	BORDER-RIGHT: #955319 0px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 1px solid; COLOR: #978c79; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+27 verbose stack }
+27 verbose stack .TitleDescription {
+27 verbose stack 	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: tahoma
+27 verbose stack }
+27 verbose stack SPAN.explain {
+27 verbose stack 	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+27 verbose stack }
+27 verbose stack SPAN.TryThings {
+27 verbose stack 	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+27 verbose stack }
+27 verbose stack .TryList {
+27 verbose stack 	MARGIN-TOP: 5px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma
+27 verbose stack }
+27 verbose stack .X {
+27 verbose stack 	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12pt; BORDER-LEFT: #955319 1px solid; COLOR: #7b3807; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #d1c2b4
+27 verbose stack }
+27 verbose stack .adminList {
+27 verbose stack 	MARGIN-TOP: 2px
+27 verbose stack }
+27 verbose stack </STYLE>
+27 verbose stack <META content="MSHTML 6.00.2800.1170" name=GENERATOR></HEAD>
+27 verbose stack <BODY bgColor=#f3f3ed>
+27 verbose stack <TABLE cellSpacing=0 cellPadding=0 width="100%">
+27 verbose stack   <TBODY>
+27 verbose stack   <TR>
+27 verbose stack     <TD class=titleBorderx width=30>
+27 verbose stack       <TABLE height=25 cellSpacing=2 cellPadding=0 width=25 bgColor=black>
+27 verbose stack         <TBODY>
+27 verbose stack         <TR>
+27 verbose stack           <TD id=L_default_x class=x valign=middle align=center>X</TD>
+27 verbose stack         </TR>
+27 verbose stack         </TBODY>
+27 verbose stack       </TABLE>
+27 verbose stack     </TD>
+27 verbose stack     <TD class=titleBorder id=L_default_2>Network Access Message:<SPAN class=TitleDescription> The page cannot be displayed</SPAN> </TD>
+27 verbose stack   </TR>
+27 verbose stack   </TBODY>
+27 verbose stack </TABLE>
+27 verbose stack
+27 verbose stack <TABLE id=spacer>
+27 verbose stack   <TBODY>
+27 verbose stack   <TR>
+27 verbose stack     <TD height=10></TD></TR></TBODY></TABLE>
+27 verbose stack <TABLE width=400>
+27 verbose stack   <TBODY>
+27 verbose stack   <TR>
+27 verbose stack     <TD noWrap width=25></TD>
+27 verbose stack     <TD width=400><SPAN class=explain><ID id=L_default_3><B>Explanation:</B></ID></SPAN><ID id=L_default_4> There is a problem with the page you are trying to reach and it cannot be displayed. </ID><BR><BR>
+27 verbose stack     <B><SPAN class=tryThings><ID id=L_default_5><B>Try the following:</B></ID></SPAN></B>
+27 verbose stack       <UL class=TryList>
+27 verbose stack         <LI id=L_default_6><B>Refresh page:</B> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.
+27 verbose stack <LI id=L_default_7><B>Check spelling:</B> Check that you typed the Web page address correctly. The address may have been mistyped.
+27 verbose stack <LI id=L_default_8><B>Access from a link:</B> If there is a link to the page you are looking for, try accessing the page from that link.
+27 verbose stack
+27 verbose stack       </UL>
+27 verbose stack <ID id=L_default_9>If you are still not able to view the requested page, try contacting your administrator or Helpdesk.</ID> <BR><BR>
+27 verbose stack     </TD>
+27 verbose stack   </TR>
+27 verbose stack   </TBODY>
+27 verbose stack </TABLE>
+27 verbose stack
+27 verbose stack <TABLE id=spacer><TBODY><TR><TD height=15></TD></TR></TBODY></TABLE>
+27 verbose stack
+27 verbose stack <TABLE width=400>
+27 verbose stack   <TBODY>
+27 verbose stack   <TR>
+27 verbose stack     <TD noWrap width=25></TD>
+27 verbose stack     <TD width=400 id=L_default_10><B>Technical Information (for support personnel)</B>
+27 verbose stack       <UL class=adminList>
+27 verbose stack         <LI id=L_default_11>Error Code: 407 Proxy Authentication Required. Forefront TMG requires authorization to fulfill the request. Access to the Web Proxy filter is denied. (12209)
+27 verbose stack <LI id=L_default_12>IP Address: 10.17.5.100
+27 verbose stack <LI id=L_default_13>Date: 19/1/2018 9:11:00 πμ [GMT]
+27 verbose stack <LI id=L_default_14>Server: ATHPRXSRV01.axa.gr
+27 verbose stack <LI id=L_default_15>Source: proxy
+27 verbose stack
+27 verbose stack       </UL>
+27 verbose stack     </TD>
+27 verbose stack   </TR>
+27 verbose stack   </TBODY>
+27 verbose stack </TABLE>
+27 verbose stack
+27 verbose stack </BODY>
+27 verbose stack </HTML>
+27 verbose stack
+27 verbose stack
+27 verbose stack     at Object.parse (native)
+27 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:197:23)
+27 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+27 verbose stack     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:344:22)
+27 verbose stack     at Request.emit (events.js:110:17)
+27 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1239:14)
+27 verbose stack     at Request.emit (events.js:129:20)
+27 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1187:12)
+27 verbose stack     at IncomingMessage.emit (events.js:129:20)
+27 verbose stack     at _stream_readable.js:908:16
+28 verbose cwd C:\Users\datacom_psagianos\Downloads\TheWorld\TheWorld
+29 error Windows_NT 6.1.7601
+30 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "npm@latest" "-g"
+31 error node v0.12.2
+32 error npm  v2.7.4
+33 error Unexpected token <
+33 error <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+33 error <HTML><HEAD><TITLE>Error Message</TITLE>
+33 error <META http-equiv=Content-Type content="text/html; charset=UTF-8">
+33 error <STYLE id=L_default_1>A {
+33 error 	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #005a80; FONT-FAMILY: tahoma
+33 error }
+33 error A:hover {
+33 error 	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #0d3372; FONT-FAMILY: tahoma
+33 error }
+33 error TD {
+33 error 	FONT-SIZE: 8pt; FONT-FAMILY: tahoma
+33 error }
+33 error TD.titleBorder {
+33 error 	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 0px solid; COLOR: #955319; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+33 error }
+33 error TD.titleBorderx {
+33 error 	BORDER-RIGHT: #955319 0px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 1px solid; COLOR: #978c79; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+33 error }
+33 error .TitleDescription {
+33 error 	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: tahoma
+33 error }
+33 error SPAN.explain {
+33 error 	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+33 error }
+33 error SPAN.TryThings {
+33 error 	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+33 error }
+33 error .TryList {
+33 error 	MARGIN-TOP: 5px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma
+33 error }
+33 error .X {
+33 error 	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12pt; BORDER-LEFT: #955319 1px solid; COLOR: #7b3807; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #d1c2b4
+33 error }
+33 error .adminList {
+33 error 	MARGIN-TOP: 2px
+33 error }
+33 error </STYLE>
+33 error <META content="MSHTML 6.00.2800.1170" name=GENERATOR></HEAD>
+33 error <BODY bgColor=#f3f3ed>
+33 error <TABLE cellSpacing=0 cellPadding=0 width="100%">
+33 error   <TBODY>
+33 error   <TR>
+33 error     <TD class=titleBorderx width=30>
+33 error       <TABLE height=25 cellSpacing=2 cellPadding=0 width=25 bgColor=black>
+33 error         <TBODY>
+33 error         <TR>
+33 error           <TD id=L_default_x class=x valign=middle align=center>X</TD>
+33 error         </TR>
+33 error         </TBODY>
+33 error       </TABLE>
+33 error     </TD>
+33 error     <TD class=titleBorder id=L_default_2>Network Access Message:<SPAN class=TitleDescription> The page cannot be displayed</SPAN> </TD>
+33 error   </TR>
+33 error   </TBODY>
+33 error </TABLE>
+33 error
+33 error <TABLE id=spacer>
+33 error   <TBODY>
+33 error   <TR>
+33 error     <TD height=10></TD></TR></TBODY></TABLE>
+33 error <TABLE width=400>
+33 error   <TBODY>
+33 error   <TR>
+33 error     <TD noWrap width=25></TD>
+33 error     <TD width=400><SPAN class=explain><ID id=L_default_3><B>Explanation:</B></ID></SPAN><ID id=L_default_4> There is a problem with the page you are trying to reach and it cannot be displayed. </ID><BR><BR>
+33 error     <B><SPAN class=tryThings><ID id=L_default_5><B>Try the following:</B></ID></SPAN></B>
+33 error       <UL class=TryList>
+33 error         <LI id=L_default_6><B>Refresh page:</B> Search for the page again by clicking the Refresh button. The timeout may have occurred due to Internet congestion.
+33 error <LI id=L_default_7><B>Check spelling:</B> Check that you typed the Web page address correctly. The address may have been mistyped.
+33 error <LI id=L_default_8><B>Access from a link:</B> If there is a link to the page you are looking for, try accessing the page from that link.
+33 error
+33 error       </UL>
+33 error <ID id=L_default_9>If you are still not able to view the requested page, try contacting your administrator or Helpdesk.</ID> <BR><BR>
+33 error     </TD>
+33 error   </TR>
+33 error   </TBODY>
+33 error </TABLE>
+33 error
+33 error <TABLE id=spacer><TBODY><TR><TD height=15></TD></TR></TBODY></TABLE>
+33 error
+33 error <TABLE width=400>
+33 error   <TBODY>
+33 error   <TR>
+33 error     <TD noWrap width=25></TD>
+33 error     <TD width=400 id=L_default_10><B>Technical Information (for support personnel)</B>
+33 error       <UL class=adminList>
+33 error         <LI id=L_default_11>Error Code: 407 Proxy Authentication Required. Forefront TMG requires authorization to fulfill the request. Access to the Web Proxy filter is denied. (12209)
+33 error <LI id=L_default_12>IP Address: 10.17.5.100
+33 error <LI id=L_default_13>Date: 19/1/2018 9:11:00 πμ [GMT]
+33 error <LI id=L_default_14>Server: ATHPRXSRV01.axa.gr
+33 error <LI id=L_default_15>Source: proxy
+33 error
+33 error       </UL>
+33 error     </TD>
+33 error   </TR>
+33 error   </TBODY>
+33 error </TABLE>
+33 error
+33 error </BODY>
+33 error </HTML>
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]

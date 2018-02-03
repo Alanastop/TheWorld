@@ -1,0 +1,16 @@
+﻿{
+  "MailSettings": {
+    "ToAddress": "alanastop@outlook.com"
+  },
+
+  "ConnectionStrings": {
+    "WorldContextConnection": "Data Source=10.17.70.20;Initial Catalog=TheWorldDb;Integrated Security=True; MultipleActiveResultSets=true;"
+  },
+
+  "Keys": {
+    "BingKey": "AmRCXd90Jru_lOphgvrEPlzNcBm_C_LCvBvEqqLjGrff8MZUT3u_VZAaTQaqQGSW"
+  }
+}
+//"Data Source=10.17.70.20;Initial Catalog=Test;Integrated Security=True";
+
+//"Server=(localdb)\\MSSQLLocalDb;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true;"
